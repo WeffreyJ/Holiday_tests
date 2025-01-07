@@ -1,0 +1,370 @@
+{
+  "version": "1.00",
+  "projectName": "",
+  "author": "jeff",
+  "items": [
+    {
+      "parentId": 0,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Operation Mode",
+        "variableName": "OperationMode",
+        "id": 1,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 1,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Soft operation",
+        "variableName": "SoftOperation",
+        "id": 2,
+        "eepromAddress": -1,
+        "functionName": "SoftModeFunction",
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 2,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Documentation",
+        "variableName": "Documentation",
+        "id": 3,
+        "eepromAddress": -1,
+        "functionName": "Log_ReadMe",
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 2,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Pressure Range",
+        "variableName": "PressureRange",
+        "id": 4,
+        "eepromAddress": -1,
+        "functionName": "PressureData",
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 2,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Temperature Range",
+        "variableName": "TemperatureRange",
+        "id": 5,
+        "eepromAddress": -1,
+        "functionName": "Temperature",
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 1,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Medium Operation",
+        "variableName": "MediumOperation",
+        "id": 10,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 1,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Hard Operation",
+        "variableName": "HardOperation",
+        "id": 11,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 11,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "New SubMenu",
+        "id": 13,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 1,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Custom Calibrate",
+        "variableName": "CustomCalibrate",
+        "id": 12,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 12,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Temperature",
+        "variableName": "Temperature",
+        "id": 14,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 12,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Pressure",
+        "variableName": "Pressure",
+        "id": 15,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 0,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Sensor Values",
+        "variableName": "SensorValues",
+        "id": 7,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 7,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "PressureValues",
+        "variableName": "PressureValues",
+        "id": 8,
+        "eepromAddress": -1,
+        "functionName": "PressureValues",
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 7,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "TemperatureValues",
+        "variableName": "TemperatureValues",
+        "id": 9,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 7,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Parameter Graphing",
+        "variableName": "ParameterGraphing",
+        "id": 16,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 0,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Error Log",
+        "variableName": "ErrorLog",
+        "id": 17,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 17,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Current Error",
+        "variableName": "CurrentError",
+        "id": 18,
+        "eepromAddress": -1,
+        "functionName": "CurrentError",
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 17,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "PreviousErrorLog",
+        "variableName": "PreviousErrorLog",
+        "id": 19,
+        "eepromAddress": -1,
+        "functionName": "ErrorLog",
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 0,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "General Settings",
+        "variableName": "GeneralSettings",
+        "id": 20,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 20,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Display Settings",
+        "variableName": "DisplaySettings",
+        "id": 21,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 20,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Encoder Sensitivity",
+        "variableName": "EncoderSensitivity",
+        "id": 22,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    },
+    {
+      "parentId": 20,
+      "type": "subMenu",
+      "item": {
+        "secured": false,
+        "name": "Power Mode",
+        "variableName": "PowerMode",
+        "id": 23,
+        "eepromAddress": -1,
+        "readOnly": false,
+        "localOnly": false,
+        "visible": true,
+        "staticDataInRAM": false
+      }
+    }
+  ],
+  "codeOptions": {
+    "embeddedPlatform": "ARDUINO32",
+    "lastDisplayUuid": "",
+    "lastInputUuid": "",
+    "lastRemoteUuids": [
+      ""
+    ],
+    "lastThemeUuid": "",
+    "applicationUUID": "202ea0dd-6a17-4ece-bf83-d01576534bd2",
+    "applicationName": "New Device",
+    "lastProperties": [],
+    "namingRecursive": false,
+    "useCppMain": false,
+    "saveLocation": "ALL_TO_CURRENT",
+    "usingSizedEEPROMStorage": true,
+    "eepromDefinition": "",
+    "authenticatorDefinition": "",
+    "projectIoExpanders": [
+      "deviceIO:"
+    ],
+    "menuInMenuCollection": {
+      "menuDefinitions": []
+    },
+    "packageNamespace": "",
+    "appIsModular": false
+  },
+  "stringLists": []
+}

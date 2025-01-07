@@ -1,0 +1,33 @@
+{
+  "version": "1.00",
+  "projectName": "Project description",
+  "author": "jeff",
+  "items": [],
+  "codeOptions": {
+    "embeddedPlatform": "ARDUINO",
+    "lastDisplayUuid": "",
+    "lastInputUuid": "",
+    "lastRemoteUuids": [
+      ""
+    ],
+    "lastThemeUuid": "",
+    "applicationUUID": "3f88d794-96f0-4748-a990-6b2aee39adb9",
+    "applicationName": "TC_MenuTestversion1.24",
+    "lastProperties": [],
+    "namingRecursive": false,
+    "useCppMain": false,
+    "saveLocation": "ALL_TO_CURRENT",
+    "usingSizedEEPROMStorage": true,
+    "eepromDefinition": "",
+    "authenticatorDefinition": "",
+    "projectIoExpanders": [
+      "deviceIO:"
+    ],
+    "menuInMenuCollection": {
+      "menuDefinitions": []
+    },
+    "packageNamespace": "",
+    "appIsModular": false
+  },
+  "stringLists": []
+}

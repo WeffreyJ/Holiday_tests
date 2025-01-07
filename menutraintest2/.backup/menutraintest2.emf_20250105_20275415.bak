@@ -1,0 +1,33 @@
+{
+  "version": "1.00",
+  "projectName": "Project description",
+  "author": "jeff",
+  "items": [],
+  "codeOptions": {
+    "embeddedPlatform": "ARDUINO",
+    "lastDisplayUuid": "",
+    "lastInputUuid": "",
+    "lastRemoteUuids": [
+      ""
+    ],
+    "lastThemeUuid": "",
+    "applicationUUID": "b6df553c-d1b5-4695-aae4-3429a352375f",
+    "applicationName": "menutraintest2",
+    "lastProperties": [],
+    "namingRecursive": false,
+    "useCppMain": false,
+    "saveLocation": "ALL_TO_CURRENT",
+    "usingSizedEEPROMStorage": true,
+    "eepromDefinition": "",
+    "authenticatorDefinition": "",
+    "projectIoExpanders": [
+      "deviceIO:"
+    ],
+    "menuInMenuCollection": {
+      "menuDefinitions": []
+    },
+    "packageNamespace": "",
+    "appIsModular": false
+  },
+  "stringLists": []
+}
